@@ -1,8 +1,9 @@
 <header>
     <div id="logo">LOGO</div>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-        <script src="/coding.js"></script>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <script src="/coding.js"></script>
 </header>
+
 <body>
     <article>
         <h1>Haarlemsche Family Lodge</h1>
@@ -11,22 +12,32 @@
     <article>
         <h2>Uw boeking</h2>
         <div id="orderForm">
-            <label>Wanneer wilt u logeren?
-                <input type="date" id="wanneer" />
+
+            <label>Aantal personen:
+                <input type="number" id="numPers" />
             </label>
             <br />
             <br />
-            <label>Met hoeveel personen?
-                <select id="typePersonen">
-                    <option value="1">1 persoon</option>
-                    <option value="2">2 personen</option>
-                    <option value="3">3 personen</option>
-                    <option value="4">4 personen</option>
-        
+
+            <label>Aantal nachten, minimaal 2:
+                <select id="nachten">
+                    <option value="1">2nachten</option>
+                    <option value="2">3nachten</option>
+                    <option value="3">4nachten</option>
+                    <option value="4">5nachten</option>
+
                 </select>
             </label>
+            <label>Aankomstdatum
+                <input type="date" id="aankomst" />
+            </label>
             <br />
             <br />
+            <label>Vertrekdatum
+                    <input type="date" id="vertrek" />
+                </label>
+                <br />
+                <br />
             <label>Wenst u ontbijt?
                 <select id="ontbijt">
                     <option value="Ja">Ja graag</option>
@@ -35,7 +46,7 @@
             </label>
             <br />
             <br />
-        
+
             <button type="button" id="placeOrder">Check beschikbaarheid</button>
         </div>
         <div id="displayTotal"></div>
@@ -44,9 +55,6 @@
     <aside>Sidebar</aside>
 </body>
 <footer>
-    <p>&copy; HTML CheatSheet</p>
-    <address>Contact <a href="mailto:me@htmlg.com">me</a></address>
+    <p>&copy; de Haarlemsche family Lodge</p>
+    <address>Contact <a href="mailto:eef.hulscher@gmail.com">met de Haarlemsche lodge</a></address>
 </footer>
-
-
-
