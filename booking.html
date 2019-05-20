@@ -1,32 +1,52 @@
-<h1>Haarlemsche Family Lodge</h1>
+<header>
+    <div id="logo">LOGO</div>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <script src="/coding.js"></script>
+</header>
+<body>
+    <article>
+        <h1>Haarlemsche Family Lodge</h1>
+        <p>...genieten...ontspannen...rusten...</p>
+    </article>
+    <article>
+        <h2>Uw boeking</h2>
+        <div id="orderForm">
+            <label>Wanneer wilt u logeren?
+                <input type="date" id="wanneer" />
+            </label>
+            <br />
+            <br />
+            <label>Met hoeveel personen?
+                <select id="typePersonen">
+                    <option value="1">1 persoon</option>
+                    <option value="2">2 personen</option>
+                    <option value="3">3 personen</option>
+                    <option value="4">4 personen</option>
+        
+                </select>
+            </label>
+            <br />
+            <br />
+            <label>Wenst u ontbijt?
+                <select id="ontbijt">
+                    <option value="Ja">Ja graag</option>
+                    <option value="Nee">Nee, bedankt</option>
+                </select>
+            </label>
+            <br />
+            <br />
+        
+            <button type="button" id="placeOrder">Check beschikbaarheid</button>
+        </div>
+        <div id="displayTotal"></div>
+    </article>
+    <section>A group of related content</section>
+    <aside>Sidebar</aside>
+</body>
+<footer>
+    <p>&copy; HTML CheatSheet</p>
+    <address>Contact <a href="mailto:me@htmlg.com">me</a></address>
+</footer>
 
 
-<div id="orderForm">
-    <label>Wanneer wilt u logeren?
-        <input type="number" id="wanneer" />
-    </label>
-    <br />
-    <br />
-    <label>Met hoeveel personen?
-        <select id="typePersonen">
-            <option value="1">1 persoon</option>
-            <option value="2">2 personen</option>
-            <option value="3">3 personen</option>
-            <option value="4">3 personen</option>
 
-        </select>
-    </label>
-    <br />
-    <br />
-    <label>Wenst u ontbijt?
-        <select id="ontbijt">
-            <option value="Ja">Ja graag</option>
-            <option value="Nee">Nee, bedankt</option>
-        </select>
-    </label>
-    <br />
-    <br />
-
-    <button type="button" id="placeOrder">Check beschikbaarheid</button>
-</div>
-<div id="displayTotal"></div>

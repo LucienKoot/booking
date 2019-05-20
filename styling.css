@@ -1,0 +1,14 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#orderForm {
+    background-color: #f7c27d;
+    border: 4px solid rgba(230, 230, 82, 0.616);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+    box-shadow: 10px 10px 5px #ecdc91;
+}
