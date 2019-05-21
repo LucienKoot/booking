@@ -7,7 +7,7 @@ body {
 #background {
   background-image: url(perkament.gif);
   background-position: center;
-  background-size: 150%;
+  background-size: 100%;
   background-repeat: no-repeat, no-repeat;
   background-attachment: fixed; 
   opacity: 20;
@@ -20,13 +20,12 @@ h1, p, #logo, address{
     text-align: center;
 }
 #orderForm {
-    
     border: 4px solid rgba(247, 247, 121, 0.616);
     border-radius: 20px;
     max-width: 24vw;
     padding: 8px;
-    margin: 8px;
     box-shadow: 10px 10px 5px #ecdc91;
     size: auto;
+    margin-left: 90px;
 
 }
