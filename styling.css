@@ -5,18 +5,18 @@ body {
 }
 
 #background {
-  background-image: url(haarlem.jpg), url(perkament.gif);
-  background-position: right bottom, left top;
-  background-size: 15%, 110%;
+  background-image: url(perkament.gif);
+  background-position: center;
+  background-size: 150%;
   background-repeat: no-repeat, no-repeat;
   background-attachment: fixed; 
   opacity: 20;
-  padding: 15px;
+
 }
 
 
 
-h1, p, #logo {
+h1, p, #logo, address{
     text-align: center;
 }
 #orderForm {
