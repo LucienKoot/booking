@@ -5,15 +5,17 @@
 </header>
 
 <body>
+    <div class="bg">test</div>
     
     <article>
-        <h1>Haarlemsche Family Lodge</h1>
+        <h1>Haarlem Family Lodge</h1>
         <p>...genieten...ontspannen...rusten...</p>
     </article>
     <article>
-        <h2>Uw boeking</h2>
+        <h2>Uw boeking:</h2>
         <div id="orderForm">
-
+                <br />
+                <br />
             <label>Aantal personen:
                 <input type="number" id="numPers" />
             </label>
@@ -22,11 +24,15 @@
             <label>Aantal nachten, minimaal 2:
                 <select id="nachten">
                     <option value="1">2nachten</option>
-                    <option value="2">3nachten</option>
+                    <option value="2">3nachten</option> 
                     <option value="3">4nachten</option>
                     <option value="4">5nachten</option>
+                    <option value="5">6nachten</option>
+                    <option value="6">7nachten</option>
 
                 </select>
+                <br />
+            <br />
             </label>
             <label>Aankomstdatum
                 <input type="date" id="aankomst" />
@@ -49,12 +55,14 @@
 
             <button type="button" id="placeOrder">Check beschikbaarheid</button>
         </div>
+        <br>
+        <br>
         <div id="displayTotal"></div>
     </article>
-    <section>A group of related content</section>
+    <section>hier komt een</section>
     <aside>Sidebar</aside>
 </body>
 <footer>
-    <p>&copy; de Haarlemsche family Lodge</p>
-    <address>Contact <a href="mailto:eef.hulscher@gmail.com">met de Haarlemsche lodge</a></address>
+    <p>&copy; Haarlem Family Lodge</p>
+    <address>Contact <a href="mailto:eef.hulscher@gmail.com">met de Haarlem Family Lodge</a></address>
 </footer>
