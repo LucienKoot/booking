@@ -7,7 +7,10 @@ body {
 #background {
   background-image: url(haarlem.jpg), url(perkament.gif);
   background-position: right bottom, left top;
+  background-size: 15%, 110%;
   background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed; 
+  opacity: 20;
   padding: 15px;
 }
 
