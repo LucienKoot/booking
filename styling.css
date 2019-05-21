@@ -1,13 +1,15 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     margin: 0%;
-    background: url("./haarlem.jpg");
-    opacity: 20;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: 100vw;
+    
 }
 
+#background {
+  background-image: url(haarlem.jpg), url(perkament.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px;
+}
 
 
 
